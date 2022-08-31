@@ -35,7 +35,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "yano:ed28b90b7912f5d3a8c085c193773dea-us17",
+    auth: "yano:f474a4ef05348f60f59c38561ad56946-us17",
   };
 
   const request = https.request(url, options, function (response) {
